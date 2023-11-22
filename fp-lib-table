@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "thinkpad-keyboard")(type "KiCad")(uri "${KIPRJMOD}/thinkpad-keyboard.pretty")(options "")(descr ""))
+)
