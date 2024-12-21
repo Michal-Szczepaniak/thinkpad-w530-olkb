@@ -1795,6 +1795,320 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ScottoKeebs:MCU_Raspberry_Pi_Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3211,6 +3525,12 @@
 		(uuid "63412ada-9cc9-478b-b6b4-c30a884dfa46")
 	)
 	(junction
+		(at 34.29 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637e2011-e38d-4711-b101-e1e103bcd095")
+	)
+	(junction
 		(at 144.78 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3349,7 +3669,7 @@
 		(uuid "a4bdce08-30e7-4c14-958d-a3a61a66e76c")
 	)
 	(junction
-		(at 24.13 33.02)
+		(at 24.13 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5554ff-9332-4f79-9183-38f8071aaafd")
@@ -3563,7 +3883,7 @@
 		(uuid "569f02c8-b852-495f-8259-768bfc960e40")
 	)
 	(no_connect
-		(at 60.96 143.51)
+		(at 66.04 151.13)
 		(uuid "d19f4557-a84e-4932-a8ff-f1c2d4fe96a7")
 	)
 	(no_connect
@@ -3573,6 +3893,16 @@
 	(no_connect
 		(at 50.8 121.92)
 		(uuid "ed09703a-2ef4-4e39-aa23-a7e9ec6d0489")
+	)
+	(wire
+		(pts
+			(xy 66.04 143.51) (xy 71.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0026734c-5e07-4259-840e-292a9b10d622")
 	)
 	(wire
 		(pts
@@ -3816,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 29.21) (xy 52.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c49cfc2-59ba-4dc8-be36-53b397ddcb7c")
+	)
+	(wire
+		(pts
 			(xy 128.27 26.67) (xy 128.27 39.37)
 		)
 		(stroke
@@ -3826,7 +4166,27 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 88.9) (xy 39.37 88.9)
+			(xy 57.15 140.97) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d66d139-4a1e-461a-bdd6-da2d53b10a30")
+	)
+	(wire
+		(pts
+			(xy 66.04 153.67) (xy 71.12 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f25906b-045e-49e6-b8ae-f089f2073398")
+	)
+	(wire
+		(pts
+			(xy 17.78 99.06) (xy 39.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3853,16 +4213,6 @@
 			(type default)
 		)
 		(uuid "35f16e49-30ff-4827-8bbd-0c4cef1aab8e")
-	)
-	(wire
-		(pts
-			(xy 68.58 140.97) (xy 71.12 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37176669-87e3-45af-8c0d-d4b79203b584")
 	)
 	(wire
 		(pts
@@ -3966,6 +4316,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 151.13) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bf2a8a-eadd-48dd-83a9-2746e0095959")
+	)
+	(wire
+		(pts
 			(xy 99.06 52.07) (xy 110.49 52.07)
 		)
 		(stroke
@@ -4016,6 +4376,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 140.97) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a71bc6-5c57-48a1-90a1-0e0dee7c77c5")
+	)
+	(wire
+		(pts
+			(xy 52.07 36.83) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e74a0c-cff0-4701-ad74-3e2578dca7cd")
+	)
+	(wire
+		(pts
 			(xy 105.41 107.95) (xy 105.41 130.81)
 		)
 		(stroke
@@ -4033,6 +4413,16 @@
 			(type default)
 		)
 		(uuid "55c4e3ed-687e-4e26-b98e-ae43c268c0ea")
+	)
+	(wire
+		(pts
+			(xy 66.04 148.59) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575e79e5-bd81-49b5-bc03-21ac934a8e90")
 	)
 	(wire
 		(pts
@@ -4086,16 +4476,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 151.13) (xy 71.12 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6291fd4d-62a1-4daa-b072-4b8a61b1b13a")
-	)
-	(wire
-		(pts
 			(xy 121.92 143.51) (xy 133.35 143.51)
 		)
 		(stroke
@@ -4143,16 +4523,6 @@
 			(type default)
 		)
 		(uuid "6a8b1fa6-64cd-4a0f-9887-0779002454c7")
-	)
-	(wire
-		(pts
-			(xy 64.77 146.05) (xy 71.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b642073-efb9-4ba4-9df8-1354d52870d8")
 	)
 	(wire
 		(pts
@@ -4406,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 43.18) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ba9f4d-f358-4db9-bcfd-d31dfe7406a0")
+	)
+	(wire
+		(pts
 			(xy 223.52 85.09) (xy 223.52 107.95)
 		)
 		(stroke
@@ -4556,26 +4936,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 143.51) (xy 71.12 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52cfac3-0bc2-47d9-93dd-9fb425b9aa2f")
-	)
-	(wire
-		(pts
-			(xy 34.29 33.02) (xy 34.29 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b580f833-4e99-45d0-ba01-8cd1cb1a7033")
-	)
-	(wire
-		(pts
 			(xy 144.78 74.93) (xy 157.48 74.93)
 		)
 		(stroke
@@ -4586,7 +4946,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 33.02) (xy 24.13 33.02)
+			(xy 17.78 43.18) (xy 24.13 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4596,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 33.02) (xy 17.78 88.9)
+			(xy 17.78 43.18) (xy 17.78 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4613,16 +4973,6 @@
 			(type default)
 		)
 		(uuid "be24133e-dd7d-4072-9b61-10fa83e7266b")
-	)
-	(wire
-		(pts
-			(xy 64.77 153.67) (xy 71.12 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2021037-d663-4fe2-be81-a4b15b20e189")
 	)
 	(wire
 		(pts
@@ -4696,6 +5046,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 25.4) (xy 34.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1064b2a-d5d6-441a-aafa-21fb1c2357fe")
+	)
+	(wire
+		(pts
 			(xy 194.31 52.07) (xy 205.74 52.07)
 		)
 		(stroke
@@ -4706,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 33.02) (xy 34.29 33.02)
+			(xy 24.13 43.18) (xy 34.29 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4776,16 +5136,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 148.59) (xy 71.12 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfb810b7-eff5-4036-b86e-1908dd668992")
-	)
-	(wire
-		(pts
 			(xy 234.95 26.67) (xy 234.95 39.37)
 		)
 		(stroke
@@ -4816,6 +5166,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 36.83) (xy 34.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14b2c4b-3709-4f71-8f80-480bb3a4a960")
+	)
+	(wire
+		(pts
 			(xy 82.55 85.09) (xy 82.55 107.95)
 		)
 		(stroke
@@ -4823,6 +5183,16 @@
 			(type default)
 		)
 		(uuid "f212ce09-33c0-4e27-93b5-f2dfed2d1a30")
+	)
+	(wire
+		(pts
+			(xy 66.04 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3122c65-c623-402b-8c88-565e623b2a8d")
 	)
 	(wire
 		(pts
@@ -4886,7 +5256,7 @@
 	)
 	(global_label "Row 4"
 		(shape input)
-		(at 39.37 60.96 180)
+		(at 39.37 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4896,7 +5266,7 @@
 		)
 		(uuid "0aa36a1b-0620-48a1-a7db-2155b72a5b6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 60.96 0)
+			(at 30.4582 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +5300,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 64.77 146.05 180)
+		(at 66.04 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4940,7 +5310,7 @@
 		)
 		(uuid "0f659954-41c9-4b8a-852d-a47b7669bf4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.9143 146.05 0)
+			(at 59.1843 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +5344,7 @@
 	)
 	(global_label "Col 0"
 		(shape input)
-		(at 39.37 78.74 180)
+		(at 39.37 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4984,7 +5354,7 @@
 		)
 		(uuid "1a1d9548-5596-476d-9d73-dbc9f99b0fd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 78.74 0)
+			(at 31.1235 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +5366,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 39.37 53.34 180)
+		(at 39.37 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5006,7 +5376,7 @@
 		)
 		(uuid "1cd8cf9c-dcd4-436e-b472-a9716ab7b129")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 53.34 0)
+			(at 30.4582 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5388,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 69.85 71.12 0)
+		(at 69.85 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5028,7 +5398,7 @@
 		)
 		(uuid "1f87561e-60f6-4b45-95ba-25859cbee99d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7057 71.12 0)
+			(at 76.7057 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5410,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 39.37 55.88 180)
+		(at 39.37 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5050,7 +5420,29 @@
 		)
 		(uuid "20041152-9add-48be-9612-f5d7058bd2e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 55.88 0)
+			(at 30.4582 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-"
+		(shape input)
+		(at 29.21 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24da0097-841b-442f-8829-35e9f46c9174")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8424 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5476,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 39.37 71.12 180)
+		(at 39.37 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5094,7 +5486,7 @@
 		)
 		(uuid "2a231769-486d-4d3f-8673-60ac794f03b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5143 71.12 0)
+			(at 32.5143 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5498,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 39.37 45.72 180)
+		(at 39.37 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5116,7 +5508,7 @@
 		)
 		(uuid "2f6ed96e-c40a-470f-9b34-aebdec023fb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5143 45.72 0)
+			(at 32.5143 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +5542,7 @@
 	)
 	(global_label "Col 9"
 		(shape input)
-		(at 69.85 81.28 0)
+		(at 69.85 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5160,7 +5552,7 @@
 		)
 		(uuid "34f1c2ce-5373-4816-a13e-a7153b319f08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0965 81.28 0)
+			(at 78.0965 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5564,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 39.37 50.8 180)
+		(at 39.37 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5182,7 +5574,7 @@
 		)
 		(uuid "3adb2601-7f26-4aac-9210-47fa1146c836")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 50.8 0)
+			(at 30.4582 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5586,7 @@
 	)
 	(global_label "Row 0"
 		(shape input)
-		(at 39.37 48.26 180)
+		(at 39.37 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5204,7 +5596,7 @@
 		)
 		(uuid "445b2934-c696-45e0-8f40-c7d4f1828fe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 48.26 0)
+			(at 30.4582 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5608,7 @@
 	)
 	(global_label "Col 1"
 		(shape input)
-		(at 39.37 76.2 180)
+		(at 39.37 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5226,7 +5618,7 @@
 		)
 		(uuid "47d2637d-9caf-4f3e-960d-c788504ecde3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 76.2 0)
+			(at 31.1235 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5652,7 @@
 	)
 	(global_label "SC_DTCT"
 		(shape input)
-		(at 68.58 140.97 180)
+		(at 66.04 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5270,7 +5662,7 @@
 		)
 		(uuid "4d6481b0-15e1-478f-9864-1a08eaee2e79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6725 140.97 0)
+			(at 55.1325 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5696,7 @@
 	)
 	(global_label "Col 10"
 		(shape input)
-		(at 69.85 86.36 0)
+		(at 69.85 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5314,7 +5706,7 @@
 		)
 		(uuid "53d6c2fa-bb14-449a-9e81-382127654178")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.306 86.36 0)
+			(at 79.306 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5718,7 @@
 	)
 	(global_label "Col 8"
 		(shape input)
-		(at 69.85 78.74 0)
+		(at 69.85 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5336,7 +5728,7 @@
 		)
 		(uuid "5ae5c4c6-e725-4ae1-bbf7-ed6cd7fef0d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0965 78.74 0)
+			(at 78.0965 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5762,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 69.85 45.72 0)
+		(at 69.85 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +5772,7 @@
 		)
 		(uuid "649cdd22-5df0-48ee-80ea-3659d74a5b6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7057 45.72 0)
+			(at 76.7057 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5784,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 69.85 40.64 0)
+		(at 69.85 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5402,7 +5794,7 @@
 		)
 		(uuid "66c1879d-883c-4ee2-af06-967e98ae2ea3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.4638 40.64 0)
+			(at 76.4638 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5828,7 @@
 	)
 	(global_label "USB-"
 		(shape input)
-		(at 66.04 151.13 180)
+		(at 66.04 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5446,7 +5838,7 @@
 		)
 		(uuid "6e02c0c3-90ce-4ebf-87b2-f8e054814cc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6724 151.13 0)
+			(at 57.6724 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5850,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 39.37 58.42 180)
+		(at 39.37 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5468,7 +5860,29 @@
 		)
 		(uuid "71e36d63-4295-47de-8732-8cd80ea6df0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5143 58.42 0)
+			(at 32.5143 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB+"
+		(shape input)
+		(at 29.21 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e238508-5ba4-4162-9c67-8563941db401")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8424 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5938,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 39.37 83.82 180)
+		(at 39.37 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5534,7 +5948,7 @@
 		)
 		(uuid "8eef995a-ff2d-4638-96bc-500645601e12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5143 83.82 0)
+			(at 32.5143 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +6070,7 @@
 	)
 	(global_label "Col 3"
 		(shape input)
-		(at 39.37 68.58 180)
+		(at 39.37 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5666,7 +6080,29 @@
 		)
 		(uuid "a2b3ec70-9758-4dda-858a-bdc9266d405b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 68.58 0)
+			(at 31.1235 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 29.21 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6ecc197-a408-4fa9-ba6e-c89931f4ad62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.3543 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +6114,7 @@
 	)
 	(global_label "Col 7"
 		(shape input)
-		(at 69.85 76.2 0)
+		(at 69.85 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5688,7 +6124,7 @@
 		)
 		(uuid "a91ea001-336f-4bfc-bc51-2baa0e53c343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0965 76.2 0)
+			(at 78.0965 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +6158,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 69.85 50.8 0)
+		(at 69.85 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5732,7 +6168,7 @@
 		)
 		(uuid "ad0dce5d-fa48-4ada-8a7f-97c8069adc37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3428 50.8 0)
+			(at 76.3428 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6246,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 69.85 63.5 0)
+		(at 69.85 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5820,7 +6256,7 @@
 		)
 		(uuid "b816d028-0626-4b66-867b-4e800feb1e96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.4033 63.5 0)
+			(at 76.4033 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +6268,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 69.85 60.96 0)
+		(at 69.85 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5842,7 +6278,7 @@
 		)
 		(uuid "b95bcff4-a6e2-4cc9-8c67-f7c75af1a0f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3428 60.96 0)
+			(at 76.3428 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +6290,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 64.77 153.67 180)
+		(at 57.15 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5864,7 +6300,7 @@
 		)
 		(uuid "bc7201db-f500-45db-bfae-676aa036ec85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.1562 153.67 0)
+			(at 50.5362 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +6312,7 @@
 	)
 	(global_label "Col 6"
 		(shape input)
-		(at 69.85 73.66 0)
+		(at 69.85 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5886,7 +6322,7 @@
 		)
 		(uuid "bd25417a-fa98-4141-9b1f-a77d67462515")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.0965 73.66 0)
+			(at 78.0965 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6356,7 @@
 	)
 	(global_label "Col 2"
 		(shape input)
-		(at 39.37 73.66 180)
+		(at 39.37 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5930,7 +6366,7 @@
 		)
 		(uuid "c2a26f21-a73d-4c2c-a4df-d25a4e860db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 73.66 0)
+			(at 31.1235 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +6422,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 69.85 83.82 0)
+		(at 69.85 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5996,7 +6432,7 @@
 		)
 		(uuid "c740df9a-3d56-469b-8285-2f89418685b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7057 83.82 0)
+			(at 76.7057 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6466,7 @@
 	)
 	(global_label "Col 4"
 		(shape input)
-		(at 39.37 66.04 180)
+		(at 39.37 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6040,7 +6476,29 @@
 		)
 		(uuid "ccfc779a-5a08-4b29-b933-72c6b402be87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 66.04 0)
+			(at 31.1235 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 29.21 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf74ae53-c188-4ce9-bd69-120b9b94b2bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5962 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6532,7 @@
 	)
 	(global_label "USB+"
 		(shape input)
-		(at 66.04 148.59 180)
+		(at 66.04 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6084,7 +6542,29 @@
 		)
 		(uuid "dc182d06-741b-46ec-819f-ce04ddc761bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6724 148.59 0)
+			(at 57.6724 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 71.12 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de5a0b9f-9701-4437-b843-95a3eef9fba5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 160.5257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6576,7 @@
 	)
 	(global_label "Col 5"
 		(shape input)
-		(at 39.37 63.5 180)
+		(at 39.37 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6106,7 +6586,7 @@
 		)
 		(uuid "e5a297cb-5e05-4eed-952e-f456b42631ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 63.5 0)
+			(at 31.1235 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6598,7 @@
 	)
 	(global_label "Col 11"
 		(shape input)
-		(at 69.85 88.9 0)
+		(at 69.85 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6128,7 +6608,7 @@
 		)
 		(uuid "ea239e77-155e-426b-9a87-1d3d893b60c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.306 88.9 0)
+			(at 79.306 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6642,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 29.21 38.1 0)
+		(at 29.21 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6172,7 +6652,7 @@
 		)
 		(uuid "ee92b210-b34b-43c4-b940-82d138c81a2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.0657 38.1 0)
+			(at 36.0657 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 110.49 71.12 0)
 			(effects
 				(font
@@ -6406,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 107.95 110.49 0)
 			(effects
 				(font
@@ -6474,7 +6954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 142.24 41.91 0)
 			(effects
 				(font
@@ -6542,7 +7022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -6610,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 203.2 64.77 0)
 			(effects
 				(font
@@ -6680,7 +7160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 182.88 116.84 0)
 			(effects
 				(font
@@ -6768,7 +7248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 194.31 116.84 0)
 			(effects
 				(font
@@ -6856,7 +7336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 99.06 93.98 0)
 			(effects
 				(font
@@ -6942,7 +7422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 191.77 133.35 0)
 			(effects
 				(font
@@ -7010,7 +7490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 214.63 133.35 0)
 			(effects
 				(font
@@ -7080,7 +7560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -7166,7 +7646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -7234,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 191.77 87.63 0)
 			(effects
 				(font
@@ -7304,7 +7784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -7366,7 +7846,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 26.67 35.56 0)
+		(at 26.67 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7375,7 +7855,7 @@
 		(fields_autoplaced yes)
 		(uuid "29531c97-bb53-4927-a994-632f2e27b4d4")
 		(property "Reference" "S61"
-			(at 26.67 27.94 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,15 +7863,15 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 26.67 30.48 0)
+			(at 26.67 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
-			(at 26.67 35.56 0)
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 35.56 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7889,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 26.67 35.56 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -7528,7 +8008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 182.88 71.12 0)
 			(effects
 				(font
@@ -7614,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 203.2 133.35 0)
 			(effects
 				(font
@@ -7684,7 +8164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -7772,7 +8252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -7858,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 180.34 64.77 0)
 			(effects
 				(font
@@ -7926,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -7994,7 +8474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 180.34 41.91 0)
 			(effects
 				(font
@@ -8062,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 130.81 87.63 0)
 			(effects
 				(font
@@ -8105,6 +8585,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 34.29 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35354cc5-cd99-469c-a78e-2a64d9762caa")
+		(property "Reference" "J5"
+			(at 35.56 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Alt_USB"
+			(at 35.56 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 34.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 34.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e19c7a19-bee6-476a-8bf2-b8f65f930b8f")
+		)
+		(pin "2"
+			(uuid "9350b8b4-2197-4424-a732-8fa62d8812fc")
+		)
+		(pin "1"
+			(uuid "2d562959-ac1d-4294-8be0-ee0fceeeb571")
+		)
+		(pin "4"
+			(uuid "eb2bcadd-cbec-41d1-9fa7-4d8afe680a78")
+		)
+		(instances
+			(project ""
+				(path "/5a75688f-62eb-4176-abdf-687d4570a106"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 130.81 110.49 0)
 		(unit 1)
@@ -8130,7 +8686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 130.81 110.49 0)
 			(effects
 				(font
@@ -8173,6 +8729,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 34.29 33.02 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f6134cf-7277-4097-9b30-e02822f3c8ee")
+		(property "Reference" "JP2"
+			(at 36.83 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PowerPin_Jumper"
+			(at 36.83 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae561e79-efd3-4720-9182-10acb1f21d62")
+		)
+		(pin "1"
+			(uuid "4cf7ddf1-99bd-4951-a32f-0f8aa9ff9f0d")
+		)
+		(instances
+			(project "thinkpad"
+				(path "/5a75688f-62eb-4176-abdf-687d4570a106"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 205.74 116.84 90)
 		(unit 1)
@@ -8200,7 +8826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 205.74 116.84 0)
 			(effects
 				(font
@@ -8286,7 +8912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -8356,7 +8982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -8442,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -8512,7 +9138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 240.03 139.7 0)
 			(effects
 				(font
@@ -8598,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -8666,7 +9292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 96.52 110.49 0)
 			(effects
 				(font
@@ -8734,7 +9360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -8804,7 +9430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -8890,7 +9516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 237.49 41.91 0)
 			(effects
 				(font
@@ -8960,7 +9586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 121.92 139.7 0)
 			(effects
 				(font
@@ -9133,7 +9759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -9221,7 +9847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 240.03 116.84 0)
 			(effects
 				(font
@@ -9309,7 +9935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -9395,7 +10021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 226.06 110.49 0)
 			(effects
 				(font
@@ -9463,7 +10089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 237.49 133.35 0)
 			(effects
 				(font
@@ -9507,7 +10133,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:MCU_Raspberry_Pi_Pico")
-		(at 54.61 64.77 0)
+		(at 54.61 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9516,7 +10142,7 @@
 		(fields_autoplaced yes)
 		(uuid "69019043-0b63-4b75-a2f4-d4606ff8938e")
 		(property "Reference" "U1"
-			(at 54.61 33.02 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +10150,7 @@
 			)
 		)
 		(property "Value" "Raspberry_Pi_Pico"
-			(at 54.61 35.56 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +10158,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MCU:Raspberry_Pi_Pico"
-			(at 54.61 34.29 0)
+			(at 54.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +10167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 64.77 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +10176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 64.77 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9724,7 +10350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -9810,7 +10436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -9878,7 +10504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 226.06 41.91 0)
 			(effects
 				(font
@@ -9946,7 +10572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -10014,7 +10640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -10082,7 +10708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -10150,7 +10776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -10220,7 +10846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -10306,7 +10932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -10376,7 +11002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 228.6 139.7 0)
 			(effects
 				(font
@@ -10464,7 +11090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 217.17 71.12 0)
 			(effects
 				(font
@@ -10550,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -10618,7 +11244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 226.06 87.63 0)
 			(effects
 				(font
@@ -10686,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 237.49 110.49 0)
 			(effects
 				(font
@@ -10756,7 +11382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -10844,7 +11470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 133.35 139.7 0)
 			(effects
 				(font
@@ -10930,7 +11556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 191.77 110.49 0)
 			(effects
 				(font
@@ -11000,7 +11626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 182.88 48.26 0)
 			(effects
 				(font
@@ -11088,7 +11714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -11176,7 +11802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -11264,7 +11890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 205.74 139.7 0)
 			(effects
 				(font
@@ -11352,7 +11978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -11438,7 +12064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -11506,7 +12132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 85.09 133.35 0)
 			(effects
 				(font
@@ -11576,7 +12202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 228.6 48.26 0)
 			(effects
 				(font
@@ -11664,7 +12290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 133.35 48.26 0)
 			(effects
 				(font
@@ -11750,7 +12376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 85.09 64.77 0)
 			(effects
 				(font
@@ -11820,7 +12446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 194.31 48.26 0)
 			(effects
 				(font
@@ -11906,7 +12532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 203.2 87.63 0)
 			(effects
 				(font
@@ -11976,7 +12602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -12064,7 +12690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 240.03 71.12 0)
 			(effects
 				(font
@@ -12150,7 +12776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 180.34 133.35 0)
 			(effects
 				(font
@@ -12220,7 +12846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -12308,7 +12934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 194.31 71.12 0)
 			(effects
 				(font
@@ -12394,7 +13020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 130.81 133.35 0)
 			(effects
 				(font
@@ -12462,7 +13088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 191.77 41.91 0)
 			(effects
 				(font
@@ -12532,7 +13158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -12696,7 +13322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 217.17 93.98 0)
 			(effects
 				(font
@@ -12784,7 +13410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -12870,7 +13496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -12940,7 +13566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 205.74 71.12 0)
 			(effects
 				(font
@@ -13026,7 +13652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -13094,7 +13720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -13164,7 +13790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 110.49 93.98 0)
 			(effects
 				(font
@@ -13252,7 +13878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 144.78 48.26 0)
 			(effects
 				(font
@@ -13340,7 +13966,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 87.63 116.84 0)
 			(effects
 				(font
@@ -13426,7 +14052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 214.63 87.63 0)
 			(effects
 				(font
@@ -13494,7 +14120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 237.49 64.77 0)
 			(effects
 				(font
@@ -13562,7 +14188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -13632,7 +14258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 99.06 71.12 0)
 			(effects
 				(font
@@ -13840,7 +14466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 237.49 87.63 0)
 			(effects
 				(font
@@ -13908,7 +14534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -13976,7 +14602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -14046,7 +14672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 99.06 139.7 0)
 			(effects
 				(font
@@ -14134,7 +14760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 228.6 116.84 0)
 			(effects
 				(font
@@ -14222,7 +14848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 110.49 139.7 0)
 			(effects
 				(font
@@ -14308,7 +14934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 180.34 110.49 0)
 			(effects
 				(font
@@ -14376,7 +15002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 96.52 133.35 0)
 			(effects
 				(font
@@ -14446,7 +15072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 194.31 93.98 0)
 			(effects
 				(font
@@ -14534,7 +15160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 144.78 139.7 0)
 			(effects
 				(font
@@ -14622,7 +15248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 87.63 48.26 0)
 			(effects
 				(font
@@ -14708,7 +15334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 107.95 41.91 0)
 			(effects
 				(font
@@ -14778,7 +15404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 217.17 139.7 0)
 			(effects
 				(font
@@ -14864,7 +15490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 214.63 64.77 0)
 			(effects
 				(font
@@ -14934,7 +15560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 121.92 71.12 0)
 			(effects
 				(font
@@ -15022,7 +15648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 182.88 93.98 0)
 			(effects
 				(font
@@ -15110,7 +15736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 182.88 139.7 0)
 			(effects
 				(font
@@ -15198,7 +15824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 110.49 116.84 0)
 			(effects
 				(font
@@ -15286,7 +15912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -15372,7 +15998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 85.09 110.49 0)
 			(effects
 				(font
@@ -15440,7 +16066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -15510,7 +16136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 87.63 139.7 0)
 			(effects
 				(font
@@ -15598,7 +16224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 217.17 48.26 0)
 			(effects
 				(font
@@ -15684,7 +16310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -15752,7 +16378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 226.06 133.35 0)
 			(effects
 				(font
@@ -15795,6 +16421,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 52.07 33.02 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f79db1f9-54fd-4c9f-ae43-6f4908e04e71")
+		(property "Reference" "JP1"
+			(at 54.61 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PowerPin_Jumper_Reverse"
+			(at 54.61 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73ee1e59-33da-4a28-a60e-dbae43f54ed9")
+		)
+		(pin "1"
+			(uuid "ff0cfa55-bc1e-48a9-982a-cd5832da1485")
+		)
+		(instances
+			(project "thinkpad"
+				(path "/5a75688f-62eb-4176-abdf-687d4570a106"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 240.03 48.26 90)
 		(unit 1)
@@ -15822,7 +16518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 240.03 48.26 0)
 			(effects
 				(font
@@ -15910,7 +16606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 87.63 71.12 0)
 			(effects
 				(font
@@ -15996,7 +16692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 214.63 41.91 0)
 			(effects
 				(font
@@ -16121,6 +16817,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdadb46f-e32a-4060-9c37-e4fc5915f392")
+		(property "Reference" "F1"
+			(at 63.5 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 63.5 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 63.5 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9710590-ce33-4d9e-ad6b-82f400cc267a")
+		)
+		(pin "1"
+			(uuid "0b4b44c9-d2f6-4d9b-a279-13893331edc6")
+		)
+		(instances
+			(project ""
+				(path "/5a75688f-62eb-4176-abdf-687d4570a106"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 144.78 116.84 90)
 		(unit 1)
@@ -16148,7 +16911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "thinkpad-keyboard:Diode_SMD_THT2"
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -16234,7 +16997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_Mini_1.00u"
+		(property "Footprint" "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch"
 			(at 226.06 64.77 0)
 			(effects
 				(font
