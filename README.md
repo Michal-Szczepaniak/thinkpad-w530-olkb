@@ -48,3 +48,7 @@ As of now the space above keyboard is not covered by anything which is KIIIIIIIN
 ![3D View](docs/3d_a.png?raw=true) 
 
 ![3D View](docs/3d_b.png?raw=true) 
+
+## Real photo
+
+![Real photo](docs/real.png?raw=true) 
