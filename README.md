@@ -17,7 +17,7 @@ USB can be fetched from multiple places, the lower end the laptop (x series) the
 
 Power button is connected via mounting OG keyboard's FPC tape or soldering it, you can pick either option by soldering the pads next to the FPC pins. Make sure you pick correct option otherwise you can short something. Power button is also routed to the mcu pin in case you want that, although when laptop is off, they keyboard is off unless you route always-on 5V to it.
 
-There are pins for connecting Framework touchpad, if you go this route, just wire them to the test pads on the Framework's touchpad and that's it.
+There are pins for connecting Framework touchpad, if you go this route, just wire them to the test pads on the Framework's touchpad and that's it. If you want to use Framework's touchpad and mount it by demeling the case then you need to break out the touchpad pcb extension.
 
 There's hole for a keyboard mounting screw, M2x20 and use a nut to hold it down but don't overtighten it!
 
