@@ -19,6 +19,12 @@ Power button is connected via mounting OG keyboard's FPC tape or soldering it, y
 
 There are pins for connecting Framework touchpad, if you go this route, just wire them to the test pads on the Framework's touchpad and that's it.
 
+There's hole for a keyboard mounting screw, M2x20 and use a nut to hold it down but don't overtighten it!
+
+Oh also cake the bottom in electrical tape and make sure there are no pointy solder points, otherwise it will short out on the aluminum case which is less than ideal.
+
+As of now the space above keyboard is not covered by anything which is KIIIIIIINDA sketchy but can be covered with electrical tape or simple 3D print. If you don't use the hole for usb cable that one can also be covered via electrical tape.
+
 # BOM 
 
 - FPC 6PIN 0.5mm pitch, same side
