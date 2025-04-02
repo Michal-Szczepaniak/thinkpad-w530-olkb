@@ -28,9 +28,10 @@ As of now the space above keyboard is not covered by anything which is KIIIIIIIN
 # BOM 
 
 - FPC 6PIN 0.5mm pitch, same side
-- 6 pin FPC connector
+- 6 pin FPC connector - DS1020-11-6VBT1-R
 - Raspberry pi pico
 - PG1425 switches
+- Either THT or SMD diodes - THT you can handle, SMD 1N4148WS-DIO (SOD323F)
 - Patience
 
 # Gallery
