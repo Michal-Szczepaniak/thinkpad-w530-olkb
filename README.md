@@ -27,7 +27,7 @@ As of now the space above keyboard is not covered by anything which is KIIIIIIIN
 
 # BOM 
 
-- FPC 6PIN 0.5mm pitch, same side
+- FPC 6PIN 0.5mm pitch, opposite side. Also please be careful because if you wire it incorrectly you'll instantly fry the motherboard.
 - 6 pin FPC connector - DS1020-11-6VBT1-R
 - Raspberry pi pico
 - PG1425 switches
