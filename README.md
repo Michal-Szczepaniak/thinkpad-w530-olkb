@@ -25,6 +25,10 @@ Oh also cake the bottom in electrical tape and make sure there are no pointy sol
 
 As of now the space above keyboard is not covered by anything which is KIIIIIIINDA sketchy but can be covered with electrical tape or simple 3D print. If you don't use the hole for usb cable that one can also be covered via electrical tape.
 
+# 3D Printable blanks
+
+Because the keyboard has gaping hole in the middle for the usb cable and also gaping hole above it, there are 3D printable blanks that can be put in place to protect anything below. Also if you decide to mod the touchpad I've included the touchpad buttons blank. [Blanks directory](https://github.com/Michal-Szczepaniak/thinkpad-w530-olkb)
+
 # BOM 
 
 - FPC 6PIN 0.5mm pitch, opposite side. Also please be careful because if you wire it incorrectly you'll instantly fry the motherboard.
