@@ -38,6 +38,25 @@ Because the keyboard has gaping hole in the middle for the usb cable and also ga
 - Either THT or SMD diodes - THT you can handle, SMD 1N4148WS-DIO (SOD323F)
 - Patience
 
+# Palm rejection not working 
+
+By default both framework touchpad and this keyboard are treated as external devices so we have to tell libinput that they're in fact not.
+
+Create file `/etc/libinput/local-overrides.quirks` with content:
+```
+[Keyboards]
+MatchUdevType=keyboard
+MatchName=QMK Macroboard
+AttrKeyboardIntegration=internal
+
+[Touchpad]
+MatchUdevType=touchpad
+MatchName=QMK Macroboard Touchpad
+AttrKeyboardIntegration=internal
+```
+
+And enable palm rejection. Voila!
+
 # Gallery
 
 ## Schematic
